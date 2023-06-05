@@ -3,13 +3,10 @@ import { FiArrowUpCircle } from "react-icons/fi"
 import AOS from 'aos'
 
 export const Footer = () => {
-    useEffect(() => {
-        AOS.init()
-    }, [])
+  
     
     return (
-        <div className='flex flex-col bg-[#67b0d1] text-white px-[3%] py-[2%]' data-aos="fade-up">
-            
+        <div className='flex flex-col bg-[#67b0d1] text-white px-[3%] py-[2%]' >     
             <div className='flex  my-[2%]'>
                 <div className='w-full '>
                     <div className='footer-heading font-mono  text-[120%] font-bold'>Research Groups</div>
