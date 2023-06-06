@@ -18,14 +18,14 @@ function App() {
     <div className="">
       <Navbar/>
       <Routes>
-        <Route path='#/' element={<Home/>}></Route>
-        <Route path='#/project' element={<Home/>}></Route>
-        <Route path='#/members' element={<Members/>}></Route>
-        <Route path='#/research' element={<Research/>}></Route>
-        <Route path='#/resources' element={<Resources/>}></Route>
-        <Route path='#/projects' element={<Projects/>}></Route>
-        <Route path='#/contact' element={<Contactus/>}></Route>
-        <Route path='#/publications' element={<Publications/>}></Route>
+        <Route path='/' element={<Home/>}></Route>
+        <Route path='/project' element={<Home/>}></Route>
+        <Route path='/members' element={<Members/>}></Route>
+        <Route path='/research' element={<Research/>}></Route>
+        <Route path='/resources' element={<Resources/>}></Route>
+        <Route path='/projects' element={<Projects/>}></Route>
+        <Route path='/contact' element={<Contactus/>}></Route>
+        <Route path='/publications' element={<Publications/>}></Route>
       </Routes>
       <Footer/>
     </div>
